@@ -1,0 +1,10 @@
+[build]
+  # Kullandığımız build komutu. '--gc' (garbage collection) eklemek iyi bir pratiktir, gereksiz dosyaları temizler.
+  command = "hugo --gc"
+  # Hugo'nun siteyi oluşturduğu klasör. Bizim ayarımız 'public' idi.
+  publish = "public"
+
+[context.production.environment]
+  # İŞTE SİHİRLİ SATIR BURASI:
+  # Kendi sürüm numaranı buraya yaz.
+  HUGO_VERSION = "v0.149.0"
